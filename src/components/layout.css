@@ -590,6 +590,22 @@ pre tt:before,
 pre tt:after {
   content: "";
 }
+
+.posts {
+  display: flex;
+  align-items: center;
+
+}
+.post {
+  margin-right: 2rem;
+  text-align: center;
+}
+
+footer {
+  border-top: blue solid 2px;
+  color: blue;
+  text-align: center;
+}
 @media only screen and (max-width: 480px) {
   html {
     font-size: 100%;
